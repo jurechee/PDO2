@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+label, input
+{
+    display: block; 
+    /* deixa na horizontal um embaixo do outro */
+
+    line-height: 30px;
+    height: 30px;
+    font-size: 13pt;
+    width: 100%;
+}
+
+
+form
+{
+    width: 330px;
+    background-color: gray;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+input[type="submit"]
+{
+    margin-top: 10px;
+}
+
+#esquerda
+{
+    width: 35%;
+    height: 500px;
+    float: left;
+
+}
+
+#direita 
+{
+    width: 65%;
+    height: 500px;
+    float: left;
+}
+
+table
+{
+    width: 90%;
+    margin: auto;
+}
+
+tr
+{
+    line-height: 30px;
+    background-color: white;
+}
+
+tr#titulo
+{
+    background-color: gray;
+}
